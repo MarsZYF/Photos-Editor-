@@ -1,0 +1,49 @@
+
+//
+//  PrefixHeader.pch
+//  SKTPic
+//
+//  Created by 赵一帆 on 2017/11/21.
+//  Copyright © 2017年 123. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define kScreenWidth \
+([[UIScreen mainScreen] respondsToSelector:@selector(nativeBounds)] ? [UIScreen mainScreen].nativeBounds.size.width/[UIScreen mainScreen].nativeScale : [UIScreen mainScreen].bounds.size.width)
+#define kScreenHeight \
+([[UIScreen mainScreen] respondsToSelector:@selector(nativeBounds)] ? [UIScreen mainScreen].nativeBounds.size.height/[UIScreen mainScreen].nativeScale : [UIScreen mainScreen].bounds.size.height)
+#define kScreenSize \
+([[UIScreen mainScreen] respondsToSelector:@selector(nativeBounds)] ? CGSizeMake([UIScreen mainScreen].nativeBounds.size.width/[UIScreen mainScreen].nativeScale,[UIScreen mainScreen].nativeBounds.size.height/[UIScreen mainScreen].nativeScale) : [UIScreen mainScreen].bounds.size)
+#define WeakSelf  __weak typeof(self) weakself = self;
+
+#define isIOS7                  ([[[UIDevice currentDevice]systemVersion]floatValue]>=7)
+#define IOS7 [[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0
+#define iOS7AddStatusHeight    (iPhoneX?44:20)
+
+#define D_LocalizedCardString(s) [[NSBundle mainBundle] localizedStringForKey:s value:nil table:@"CardToolLanguage"]
+#define D_Main_Appdelegate (AppDelegate *)[UIApplication sharedApplication].delegate
+
+#define iPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#import "UIColor+HexColors.h"
+#import "UIView+Utils.h"
+#import "TZImagePickerController.h"
+#import "Masonry.h"
+#import <AssetsLibrary/AssetsLibrary.h>
+#import "UIColor+Help.h"
+#import "WHStoryMakerHeader.h"
+#import "LoadingViewManager.h"
+#import "SVProgressHUD.h"
+#import "AFNetworking.h"
+#import "JPUSHService.h"
+#import <UIKit/UIKit.h>
+#ifdef NSFoundationVersionNumber_iOS_9_x_Max
+#import <UserNotifications/UserNotifications.h>
+// 引入JAnalytics功能所需头文件
+#import "JANALYTICSService.h"
+// 如果需要使用idfa功能所需要引入的头文件（可选）
+#import <AdSupport/AdSupport.h>
+#endif
+#endif /* PrefixHeader_pch */

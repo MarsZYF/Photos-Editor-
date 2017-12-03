@@ -1,0 +1,177 @@
+
+/*
+ CardToolLanguage.strings
+ TestAPP
+ 
+ Created by yangyong on 14-5-27.
+ Copyright (c) 2014年 gainline. All rights reserved.
+ */
+
+//Card Menu
+
+"CFBundleDisplayName" = "Mix camera";
+
+
+
+"Create_Card_Title" = "Make its card";
+
+"TakePic" = "Take pictures";
+"PickPic" = "album";
+"Button_Cancel" = "cancel";
+"Button_Cofirm" = "confirm";
+"Button_Back" = "back";
+"Cofirm_Back" = "Confirm back";
+
+"nav_title_preview" = "ok";
+"nav_title_specialefficacy" = "Special effect";
+
+
+
+//Mood
+"card_title_mood" = "心情";
+"card_button_bored" = "无聊";
+"card_button_leisure" = "悠闲";
+"card_button_happy" = "逗比";
+"card_button_showoff" = "得瑟";
+"card_button_anger" = "暴走";
+"card_button_sad" = "伤心";
+"card_button_lol" = "囧囧";
+"card_button_more" = "更多";
+
+
+
+//Essay
+"card_title_essay" = "随笔";
+"card_essay_button_fugu" = "复古";
+"card_essay_button_guangyun" = "光晕";
+"card_essay_button_baiban" = "白板";
+"card_essay_button_katong" = "卡通";
+"card_essay_button_house" = "房子";
+"card_essay_button_huiyi" = "回忆";
+
+
+
+
+"card_essay_decoration" = "装饰";
+"card_essay_decoration_potho_title" = "装饰图片";
+
+"card_essay_decoration_left"="装饰";
+"card_essay_decoration_right"="小照片";
+
+
+//meitu
+"card_meitu_title" = "The beautiful";
+"card_meitu_start_pintu" = "puzzle";
+"card_meitu_album" = "album";
+"card_meitu_complete" = "complete";
+"card_meitu_cancel" = "cannel";
+"card_meitu_imagegroup_imagecount" = "%ld photos";
+"card_meitu_ready_add_image_count" = "A %d photo has been added";
+"card_meitu_max_image_prompt" = "tip";
+"card_meitu_max_image_prompttext" = "only select 5 pictures";
+"card_meitu_max_image_count_less_than_two" = "The jigsaw function requires at least one image!";
+
+"card_meitu_storyboard" = "Points mirror";
+"card_meitu_poster" = "Free mode ";
+"card_meitu_splice" = "Joining together";
+"card_meitu_board"  = "border";
+"card_meitu_edit"  = "Add/delete";
+"card_meitu_board_list_title" = "Border list";
+
+
+"card_select_image_pingtu" =  "puzzle";
+"card_select_image_once" =  "A single figure";
+"card_take_pic" =  "Take pictures";
+"card_pick_pic" =  "Choose photos";
+"save_photos"   =  "Save to the album?";
+"card_meitu_max_image_promptDetermine" = "OK";
+"card_meitu_add_image" = "add image";
+
+//Diary
+"card_title_diary" = "日记";
+"card_diary_button_xinjian" = "信笺";
+"card_diary_button_qingxin" = "清新";
+"card_diary_button_langman" = "烂漫";
+"card_diary_button_sinian" = "思念";
+"card_diary_button_piaoxue" = "飘雪";
+
+
+"card_diary_select_weather_title" = "天气列表";
+
+
+
+//小卡片
+"card_title_smallcard" = "小卡片";
+
+"card_small_button_photo" = "图片";
+"card_small_button_tif" = "文字";
+"card_small_button_baseboard" = "底纹";
+"card_small_button_ornament" = "装饰";
+"card_small_button_doll" = "玩偶";
+"card_baseboard_list_title" = "底板列表";
+"card_decoration_list_title" = "装饰列表";
+"card_music_select_complete" = "完成";
+
+//Create Tuo Card
+
+"Weather" = "天气 🍀";
+"Video_CutPic_Failed" = "视频截图失败！";
+"Video_Processing" = "正在处理...";
+"AVAsset doesn't support mp4 quality" = "不支持MP4的格式";
+"Error" = "错误";
+
+"Cofirm Back" = "确认返回";
+
+"Send Vote" = "发起投票";
+"Send Vote Warinning" = "你发起的投票无效，请填写完信息!";
+"Cancel Send Vote" = "放弃发起投票";
+"Continue Send Vote" = "继续填写";
+
+"Title_Vote_Description" = "你发起的投票描述:";
+"Title_Vote_PlanceHold" = "写下你要表达的问题...";
+
+"select_music" = "音乐";
+"select_record" = "录音";
+"Press_Button_Recording" = "按住开始录音";
+
+
+
+//资源列表的title
+"ResourceList_Title_Mood"= "心情列表";
+"ResourceList_Title_Eassy"= "装饰";
+"ResourceList_Title_Decoration"= "装饰列表";
+"ResourceList_Title_Doll"= "玩偶列表";
+"ResourceList_Title_Baseboard"= "底板列表";
+"ResourceList_Title_Specialefficacy"= "特效列表";
+
+//发布
+"postTO_CardShowAndFriend" = "发布到卡秀及朋友圈";
+"postTO_Friend_Only" = "仅发布到朋友圈";
+"postTO_CardShow_Only" = "仅发布到卡秀";
+
+"Prompt_After_Null"= "后面没有了";
+
+
+//滤镜
+"filter_Nor" = "Normal";
+"filter_LOMO" = "LOMO";
+"filter_B&W" = "B&W";
+"filter_gothic" = "gothic";
+"filter_retro" = "retro";
+"filter_sharpen" = "sharpen";
+"filter_elegance" = "elegance";
+"filter_WineRed" = "WineRed";
+"filter_lemon" = "lemon";
+"filter_romance" = "romance";
+"filter_halo" = "halo";
+"filter_blues" = "blues";
+"filter_dreamy" = "dreamy";
+"filter_night" = "night";
+
+"NET_WORK" = "Network unconnected";
+
+
+
+
+
+
